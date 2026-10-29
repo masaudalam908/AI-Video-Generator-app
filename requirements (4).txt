@@ -1,0 +1,7 @@
+streamlit>=1.38,<2.0
+requests>=2.31,<3.0
+Pillow>=10.0,<13.0
+moviepy==1.0.3
+imageio-ffmpeg>=0.4.9
+edge-tts>=6.1.12
+gTTS>=2.5.1
