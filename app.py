@@ -24,7 +24,7 @@ st.set_page_config(page_title="AI Video Generator", page_icon="🎬", layout="wi
 st.title("🎬 AI Video Generator")
 st.caption("Turn a topic into a narrated MP4 video with visuals, subtitles, and background music.")
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 PEXELS_API_URL = "https://api.pexels.com/v1/videos/search"
 VIDEO_W, VIDEO_H = 1280, 720
 FPS = 24
